@@ -32,6 +32,8 @@ target_sources(pulso PRIVATE
     src/core/version.hpp
     src/http/handler_version.hpp
     src/http/handler_version.cpp
+    alertas/alerta_umbral.cpp
+    alertas/gestor_alertas.cpp
 )
 
 # Collector de CPU para Windows: solo se compila en plataforma WIN32.
